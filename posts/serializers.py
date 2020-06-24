@@ -5,7 +5,7 @@ class GhostPostSerializer(HyperlinkedModelSerializer):
     class Meta:
         model = GhostPost
         fields = (
-            'boasts_or_roasts',
+            'boast_or_roast',
             'post',
             'up_votes',
             'down_votes',
